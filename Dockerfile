@@ -17,4 +17,4 @@ COPY --from=build /app/apiauth .
 
 EXPOSE 8033
 
-CMD [ "./apipoli" ]
+CMD [ "./apiauth" ]
